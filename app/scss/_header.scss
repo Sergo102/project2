@@ -1,0 +1,123 @@
+header{
+  margin-top: 20px;
+
+  .header__top{
+    width: inherit;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px dashed var(--grey);
+    .sections{
+      width: auto;
+      gap: 8px;
+      display: flex;
+      align-items: center;
+      &__button{
+        width: 30px;
+        height: 30px;
+        padding: 6px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        span{
+          width: 100%;
+          height: 0.4px;
+          border: 1px solid var(--grey);
+        }
+      }
+      h2{
+        font-family: 'Roboto';
+        font-weight: 500;
+        margin: 0;
+      }
+    }
+    .center-h2{
+      font-family: "PT Serif";
+      font-weight: 400;
+      font-size: 20px;
+      opacity: 0.5;
+    }
+    .right-part{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .search{
+        display: inline-flex;
+        align-items: center;
+        gap: 5px;
+        img{
+          width: 13px;
+          height: 13px;
+        }
+        h2{
+          font-family: "Roboto";
+          font-weight: 500;
+          margin: 0;
+          font-size: 14px;
+          line-height: 15px;
+        }
+      }.login{
+        width: 75px;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+        h2{
+          font-family: "Roboto";
+          font-weight: 400;
+          margin: 0;
+          font-size: 14px;
+          line-height: 15px;
+        }
+      }
+    }
+  }
+
+  h1{
+    font-family: "Bitter";
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: -4px;
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 25px;
+  }
+
+  .topics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--grey);
+    border-top: 1px solid var(--grey);
+    margin-bottom: 40px;
+    &__invisible-div{
+      width: 76px;
+    }
+    ul{
+      display: inline-flex;
+      gap: 15px;
+      justify-content: space-between;
+      li{
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 20px;
+      }
+    }
+    a{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      font-family: 'Roboto';
+      font-weight: 700;
+      color: var(--link-color);
+      font-size: 13px;
+      img{
+        width: 20px;
+        height: 16px;
+      }
+    }
+  }
+}

@@ -4,25 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>News Article</title>
+  <link rel="stylesheet" href="dist/index.css">
 </head>
 <body>
   <header>
-    <section class="sections">
-      <div class="section__button">
-        <span></span>
-      </div>
-      <!-- Add menu here -->
-      <h2>SECTIONS</h2>
-    </section>
-    <h2 class="center-h2">
-      Friday, February 24, 2017
-    </h2>
-    <section class="search">
-      <img src="img/search.png">
-      <h2>SEARCH</h2>
-    </section>
-    <section class="login">
-      <h2>LOGIN</h2>
+    <section class="header__top">
+      <section class="sections">
+        <div class="sections__button">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <!-- Add menu here -->
+        <h2>SECTIONS</h2>
+      </section>
+      <h2 class="center-h2">
+        Friday, February 24, 2017
+      </h2>
+      <section class="right-part">
+        <section class="search">
+          <img src="img/search.png">
+          <h2>SEARCH</h2>
+        </section>
+        <button class="login">
+          <h2>Log in</h2>
+        </button>
+      </section>
     </section>
 
     <h1>The News</h1>
@@ -54,8 +61,17 @@
   <main>
     <article class="main-content">
       <img src="img/Content-img.png">
-      <h2 class="main-content__title"></h2>
-      <p></p>
+      <div class="main-content__title">
+        <h2>
+          What One Photo Tells Us About North 
+          Korea’s Nuclear Program
+        </h2>
+      </div>
+      <p>
+        Clues from a propaganda photo reveal details about 
+        North Korea’s expanding weapons programs and 
+        internal politics.
+      </p>
     </article>
     <section class="top-stories">
       <mark>TOP STORIES</mark>
