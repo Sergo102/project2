@@ -34,4 +34,113 @@ main{
       font-size: 15px;
     }
   }
+
+  .top-stories{
+    width: 78%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 20px;
+    mark{
+      padding: 10px;
+      font-family: "Roboto";
+      font-weight: 400;
+      font-size: 20px;
+    }
+    ul{
+      margin-bottom: 0;
+      li{
+        font-family: "PT Serif";
+        font-weight: 400;
+        font-size: 21px;
+        padding: 10px 0;
+        padding-right: 10px;
+      }
+      .border{
+        border-top: 1px solid var(--grey);
+      }
+    }
+  }
+
+  .quick-bites{
+    width: 80%;
+    height: auto;
+    padding-left: 20px;
+    &__stocks{
+      background-color: var(--grey);
+      height: auto;
+      mark{
+        position: relative;
+        top: 10px;
+        padding: 10px;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 20px;
+      }
+      h3{
+        width: 70%;
+        margin-left: 7.5%;
+        margin-top: 40px;
+        font-family: "Merriweather";
+        font-weight: 700;
+        font-size: 24px;
+      }
+      p{
+        width: 84%;
+        margin-left: 7%;
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 22px;
+      }
+      a{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        .text{
+          font-family: "Roboto";
+          font-weight: 700;
+          font-size: 20px;
+          color: var(--link-color);
+        }
+        .arrow-right{
+          display: block;
+          margin-top: 7px;
+          width: 11px;
+          height: 11px;
+          border-top: 2px solid var(--link-color);
+          border-left: 2px solid var(--link-color);
+          transform: rotate(135deg);
+        }
+      }
+    }
+    .form-title{
+      width: 83%;
+      font-family: "Merriweather";
+      font-weight: 700;
+      font-size: 24px;
+      color: var(--link-color);
+    }
+    form{
+      width: 100%;
+      display: inline-flex;
+      justify-content: space-between;
+      input[type="email"]{
+        font-family: "Roboto";
+        font-weight: 400;
+        font-size: 20px;
+        border: none;
+        outline: none;
+      }
+      input[type="submit"]{
+        background-color: var(--link-color);
+        border: none;
+        color: #fff;
+        padding: 7px 15px;
+        cursor: pointer;
+      }
+    }
+  }
 }

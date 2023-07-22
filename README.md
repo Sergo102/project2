@@ -8,4 +8,4 @@ Someday, I'll do full version of this project, I swear!
 
 notes.md -> Functional Notes and Requirements
 
-1 hour 20 minutes + 30 minutes + 1 hour
+1 hour 20 minutes + 30 minutes + 1 hour + 50 minutes
