@@ -5,7 +5,7 @@ Figma template -> https://www.figma.com/file/V4fr012brSsie2XXUIWtxu/News-Site-(C
 (only cover version)
 Someday, I'll do full version of this project, I swear!
 
-Click "Sigh up" input for push notifications
+Click "Sigh up" input for push notifications that checks validity of your email
 
 A bit of documentation
 
