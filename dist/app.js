@@ -1,2 +1,2 @@
-
+window.addEventListener("DOMContentLoaded",(function(){let e=document.querySelector('input[type="submit"]'),t=document.querySelector('input[type="email"]');e.addEventListener("click",(function(){Notification.requestPermission().then((e=>{if("granted"===e){new Notification("Click on it",{body:"This will 'alert' your email",data:{hello:"world"}}).addEventListener("click",(e=>{""===t.value?alert("Input your email pls"):t.checkValidity()?(alert(`Hi ${t.value}`),t.value=""):alert("Your email isn't valid")}))}}))}))}));
 //# sourceMappingURL=app.js.map

@@ -4,9 +4,9 @@
 
 2. CSS arrows -> https://codepen.io/MaryG/pen/WbvRrz
 
-3. Burger menu -> 'has to be found'
+3. Burger menu
 
-4. Email notifications
+4. Push notifications -> https://www.youtube.com/watch?v=Bm0JjR4kP8w&ab_channel=WebDevSimplified
 
 5. Add some kind of search on page
 
