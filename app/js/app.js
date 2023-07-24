@@ -1,4 +1,5 @@
 window.addEventListener('DOMContentLoaded', function(){
+  // Push notifications code
   let submit = document.querySelector('input[type="submit"]');
   let emailInput = document.querySelector('input[type="email"]');
   
@@ -27,4 +28,24 @@ window.addEventListener('DOMContentLoaded', function(){
       }
     }) 
   })
-})
+
+  // Burger menu code
+  let menuButton = document.querySelector('.sections__button');
+  let menu = document.querySelector('.sections__menu'); 
+
+  menu.style.display = "none";
+
+  menuButton.addEventListener('click', menuHandler);
+  
+  function menuHandler(){
+    if(menu.style.display == "none"){
+      menuButton.classList.add("active");
+      menu.style.display = "block";
+    }
+    else{
+      menuButton.classList.remove("active");
+      menu.style.display = "none";
+    }
+  }
+});
+
