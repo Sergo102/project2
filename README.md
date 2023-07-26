@@ -12,4 +12,4 @@ A bit of documentation
 notes.md -> Functional Notes and Requirements
 
 1 hour 20 minutes + 30 minutes + 1 hour + 50 minutes + 1 hour + 
-1 hour 30 minutes
+1 hour 30 minutes + 1 hour 10 minutes

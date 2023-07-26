@@ -31,21 +31,15 @@ window.addEventListener('DOMContentLoaded', function(){
 
   // Burger menu code
   let menuButton = document.querySelector('.sections__button');
-  let menu = document.querySelector('.sections__menu'); 
-
-  menu.style.display = "none";
-
-  menuButton.addEventListener('click', menuHandler);
+  let menuButton2 = document.querySelector('.sections__button2');
+  let menuWrapper = document.querySelector('#menu-wrapper');
   
-  function menuHandler(){
-    if(menu.style.display == "none"){
-      menuButton.classList.add("active");
-      menu.style.display = "block";
-    }
-    else{
-      menuButton.classList.remove("active");
-      menu.style.display = "none";
-    }
-  }
+  menuButton.addEventListener('click', function(){
+    menuWrapper.className = "menu-wrapper";    
+  });
+
+  menuButton2.addEventListener('click', function(){
+    menuWrapper.className = "menu-wrapper-hidden";    
+  });
 });
 
