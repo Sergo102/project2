@@ -11,4 +11,4 @@ A bit of documentation
 
 notes.md -> Functional Notes and Requirements
 
-(7 hours 20 minutes) + 1 hour
+(7 hours 20 minutes) + 20 minutes

@@ -1,0 +1,26 @@
+// 1275px
+@media (max-width: 1275px) {
+  .topics{
+    ul{
+      li{
+        a{
+          font-size: 23px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .topics{
+    width: 100%;
+    ul{
+      width: 81%;
+      li{
+        a{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
