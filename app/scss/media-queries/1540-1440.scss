@@ -1,0 +1,13 @@
+// 1540px, 1440px
+@media (max-width: 1540px) {
+  .topics__invisible-div{
+    display: none;
+  }
+}
+
+@media (max-width: 1440px) {
+  body{
+    width: 90%;
+    margin-left: 5%;
+  }
+}
