@@ -1,0 +1,165 @@
+// 990px, 870px, 815px, 800px, 780px
+@media (max-width: 990px){
+  .menu-wrapper{
+    .menu{
+      width: 45%;
+    }
+  }
+
+  header{
+    h1{
+      margin: 10px;
+    }
+    .topics{
+      ul{
+        a{
+          font-size: clamp(13px, 100%, 20px);
+        }
+      }
+    }
+  }
+
+  main{
+    .main-content{
+      &__title{
+        width: 85%;
+        h2{
+          font-size: clamp(15px, 20px, 30px);
+        }
+      }
+      p{
+        margin-top: 5px;
+        font-size: 12px;
+      }
+    }
+
+    .top-stories{
+      mark{
+        font-size: clamp(15px, 17.5px, 20px);
+      }
+      ul{
+        margin-top: 0;
+        li{
+          font-size: clamp(10px, 15px, 20px);
+        }
+      }
+    }
+    
+    .quick-bites{
+      padding: 0;
+      &__stocks{
+        mark{
+          font-size: clamp(15px, 17.5px, 20px);
+        }
+        h3{
+          width: 85%;
+          font-size: clamp(15px, 20px, 24px);
+          margin-top: 25px;
+          margin-bottom: 0;
+          margin-left: 15px;
+        }
+        p{
+          font-size: clamp(10px, 14.5px, 22px);
+          margin: 7px 15px;
+          margin-bottom: 0;
+        }
+        a{
+          padding-bottom: 10px;
+          .text{
+            font-size: clamp(15px, 17.5px, 20px);           
+          }
+        }
+      }
+      .form-title{
+        width: 95%;
+        margin: 10px 0;
+        font-size: clamp(15px, 20px, 24px);
+      }
+    }
+  }
+}
+
+@media (max-width: 870px) {
+  main{
+    .main-content{
+      &__title{
+        width: 90%;
+        h2{
+          font-size: clamp(15px, 17.5px, 30px);
+        }
+      }
+      &__title, p{
+        margin-left: 10px;
+      }
+    }
+
+    .top-stories{
+      mark{
+        font-size: clamp(15px, 17.5px, 20px);
+      }
+      ul{
+        margin-top: 0;
+        li{
+          padding-right: 0;
+          font-size: clamp(10px, 14px, 20px);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 815px) {
+  header{
+    h1{
+      line-height: 64px;
+      margin: 7px;
+    }
+    .topics{
+      margin-bottom: 20px;
+      ul{
+        a{
+          font-size: clamp(13px, 95%, 20px);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  main{
+    .top-stories{
+      ul{
+        li{
+          font-size: clamp(10px, 13px, 20px);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 780px) {
+  header{
+    h1{
+      line-height: 54px;
+      font-size: 54px;
+      margin: 7px;
+    }
+    .topics{
+      ul{
+        a{
+          font-size: clamp(13px, 90%, 20px);
+        }
+      }
+    }
+  }
+
+  main{
+    .top-stories{
+      ul{
+        li{
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
