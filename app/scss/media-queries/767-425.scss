@@ -1,0 +1,82 @@
+@media (max-width: 767px) {
+  main{
+    display: flex;
+    flex-direction: column;
+    .main-content{
+      &__title{
+        h2{
+          font-size: clamp(17.5px, 27px, 32px);
+        }
+      }
+      p{
+        display: none;
+      }
+    }
+    .top-stories{
+      width: 100%;
+      margin: 10px 0;
+      padding: 0;
+      .top{
+        width: inherit;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        &__view{
+          display: flex;
+          color: var(--link-color);
+          align-items: center;
+          font-family: "Roboto";
+          font-size: clamp(15px, 17.5px, 20px);
+        }
+      }
+      ul{
+        width: 100%;
+      }
+      #top-stories__ul-first{
+        li{
+          font-size: 31px;
+        }
+      }
+      #top-stories__ul-second{
+        li{
+          font-size: 27px;
+        }
+      }
+    }
+    .quick-bites{
+      width: 100%;
+      &__stocks{
+        h3, p{
+          margin-bottom: 10px;
+        }
+        h3{
+          width: 90%;
+          font-size: clamp(24px, 28px, 32px);
+        }
+        p{
+          font-size: clamp(15px, 20px, 30px);
+        }
+        a{
+          .text{
+            line-height: 22.5px;
+            font-size: clamp(20px, 22.5px, 30px);
+          }
+          .arrow{
+            margin-top: -105px;
+          }
+        }
+      }
+      .form-title{
+        font-size: 27px;
+        margin: 20px 0;
+      }
+      form{
+        // width: 50%;
+        margin-bottom: 10px;
+        input[type="email"]{
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}

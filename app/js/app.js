@@ -41,5 +41,26 @@ window.addEventListener('DOMContentLoaded', function(){
   menuButton2.addEventListener('click', function(){
     menuWrapper.className = "menu-wrapper-hidden";    
   });
+
+  // "View all" code (767px width or lower)
+  const li = document.querySelectorAll('.li');
+  const li2 = document.querySelectorAll('.li2');
+  const viewButton = document.querySelector('.top__view');
+  let ul1 = document.querySelector('#top-stories__ul-first');
+  let ul2 = document.querySelector('#top-stories__ul-second');
+
+  for(let i = 0;i < li.length;i++){
+    li2[i].innerText = li[i].innerHTML.slice(1, 55) + "...";
+  }
+
+  viewButton.addEventListener('click', function(){
+    if(ul1.style.display == 'none'){
+      ul1.style.display = 'block';
+      ul2.style.display = 'none';
+    }else{
+      ul1.style.display = 'none';
+      ul2.style.display = 'block';
+    }
+  })
 });
 

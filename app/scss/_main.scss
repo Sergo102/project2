@@ -48,6 +48,9 @@ main{
       font-weight: 400;
       font-size: 20px;
     }
+    .top__view{
+      display: none;
+    }
     ul{
       margin-bottom: 0;
       li{
@@ -61,6 +64,9 @@ main{
         border-top: 1px solid var(--grey);
       }
     }
+    // #top-stories__ul-first{
+    //   display: none;
+    // }
   }
 
   .quick-bites{
