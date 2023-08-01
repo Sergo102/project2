@@ -1,4 +1,4 @@
-// 767px, 746px, 690px, 674px
+// 767px, 746px, 690px, 674px, 576px, 519px
 @media (max-width: 767px) {
   main{
     display: flex;
@@ -178,6 +178,40 @@
     }
     .topics{
       display: none;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  main{
+    .top-stories{
+      #top-stories__ul-first{
+        li{
+          font-size: 1.35rem;
+        }
+      }
+      #top-stories__ul-second{
+        li{
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 519px) {
+  main{
+    .top-stories{
+      #top-stories__ul-first{
+        li{
+          font-size: 1.25rem;
+        }
+      }
+      #top-stories__ul-second{
+        li{
+          font-size: 1rem;
+        }
+      }
     }
   }
 }
