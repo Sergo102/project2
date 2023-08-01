@@ -1,4 +1,6 @@
-// 767px, 746px, 690px, 674px, 576px, 519px
+// media-query width's
+// 767px, 746px, 690px, 674px, 576px, 519px, 500px, 480px,
+// 450px
 @media (max-width: 767px) {
   main{
     display: flex;
@@ -210,6 +212,53 @@
       #top-stories__ul-second{
         li{
           font-size: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  header{
+    h1{
+      position: absolute;
+      top: 10px;
+      left: 28%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  header{
+    h1{
+      width: 70vw;
+      left: 50%;
+      transform: translate(-50%, -0%);
+    }
+  }
+
+  main{
+    .top-stories{
+      #top-stories__ul-first{
+        li{
+          font-size: 1.15rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  main{
+    .top-stories{
+      #top-stories__ul-first{
+        li{
+          font-size: 1.05rem;
+        }
+      }
+      #top-stories__ul-second{
+        li{
+          font-size: 0.9rem;
         }
       }
     }
