@@ -1,0 +1,120 @@
+// media-query width's
+// 403px, 398px, 365px, 333px
+
+@media (max-width: 403px) {
+  main{
+    .main-content{
+      &__title{
+        h2{
+          font-size: 20px;
+        }
+      }
+    }
+
+    .top-stories{
+      #top-stories__ul-first{
+        li{
+          font-size: 0.95rem;
+        }
+      }
+      #top-stories__ul-second{
+        li{
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    .quick-bites{
+      &__stocks{
+        h3{
+          font-size: 20px;
+        }
+        p{
+          font-size: 15px;
+          margin-bottom: 0;
+        }
+
+        span.text{
+          display: none;
+        }
+        span.arrow-right{
+          width: 12px;
+          height: 12px;
+          margin-top: 0;
+          margin-bottom: 5px;
+        }
+      }
+      .form-title{
+        font-size: 20px;
+      }
+      form{
+        input[type="email"]{
+          width: 75%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 398px) {
+  main{
+    .main-content{
+      &__title{
+        width: 82.5%;
+        margin-top: -50px;
+        h2{
+          font-size: 16.5px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 365px) {
+  main{
+    .main-content{
+      &__title{
+        width: 88.5%;
+      }
+    }
+
+    .top-stories{
+      #top-stories__ul-first{
+        li{
+          font-size: 0.83rem;
+        }
+      }
+      #top-stories__ul-second{
+        li{
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 333px) {
+  main{
+    .quick-bites{
+      &__stocks{
+        h3{
+          font-size: 18px;
+        }
+        p{
+          font-size: 13px;
+          margin-bottom: 0;
+        }
+        span.arrow-right{
+          width: 10px;
+          height: 10px;
+          margin-top: 0;
+          margin-bottom: 5px;
+        }
+      }
+      .form-title{
+        font-size: 18px;
+        margin: 10px 0;
+      }
+    }
+  }
+}
