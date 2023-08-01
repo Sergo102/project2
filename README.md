@@ -7,6 +7,9 @@ Someday, I'll do full version of this project, I swear!
 
 Click "Sigh up" input for push notifications that checks validity of your email by using "alert" to tell you
 
+(You have to fix bug with transfering user to another page)
+"Just a reminder"
+
 A bit of documentation
 
 notes.md -> Functional Notes and Requirements
